@@ -39,7 +39,7 @@ body {
 }
 
 .hero-title {
-    left: 1.0417%;
+    left: 2%;
     top: 0.686%;
     width: 54.1%;
     margin: 0;
@@ -55,7 +55,7 @@ body {
 }
 
 .hero-description {
-    left: 1.0417%;
+    left: 2%;
     top: 6.25%;
     width: 44.41%;
     margin: 0;
@@ -260,7 +260,7 @@ body {
 
 .about__title {
     position: absolute;
-    left: 1.04%;
+    left: 2%;
     top: 23.9%;
     width: 60%;
     margin: 0;
@@ -275,7 +275,7 @@ body {
 
 .about__description {
     position: absolute;
-    left: 1.04%;
+    left: 2%;
     top: 28.1%;
     width: 82%;
     margin: 0;
@@ -398,7 +398,7 @@ body {
 }
 
 .products-title {
-    left: 1.04%;
+    left: 2%;
     top: 46.42%;
     width: 55%;
     margin: 0;
@@ -411,7 +411,7 @@ body {
 }
 
 .products-description {
-    left: 1.04%;
+    left: 2%;
     top: 49.98%;
     width: 97%;
     margin: 0;
@@ -539,7 +539,7 @@ body {
 }
 
 .delivery-title {
-    left: 1.04%;
+    left: 2%;
     top: 63.85%;
     width: 88%;
     margin: 0;
@@ -552,7 +552,7 @@ body {
 }
 
 .delivery-description {
-    left: 1.04%;
+    left: 2%;
     top: 69.5%;
     width: 31%;
     margin: 0;
@@ -566,8 +566,8 @@ body {
 
 .map {
     left: 40%;
-    top: 67.2%;
-    width: 60%;
+    top: 66.2%;
+    width: 65%;
 }
 
 .footer-wave {
