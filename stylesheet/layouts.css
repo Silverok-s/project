@@ -1,0 +1,704 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #f0f2ef;
+    color: #1d6564;
+    font-family: "PT Root UI", sans-serif;
+}
+
+.site {
+    position: relative;
+    width: 100%;
+    max-width: 2880px;
+    aspect-ratio: 2880 / 11223;
+    margin-inline: auto;
+    overflow: hidden;
+    background: #f0f2ef;
+    container-type: inline-size;
+}
+
+.layer {
+    position: absolute;
+    display: block;
+    height: auto;
+    max-width: none;
+}
+
+.background {
+    left: -1.77%;
+    top: -0.036%;
+    width: 102.74%;
+    z-index: 0;
+}
+
+.hero-title {
+    left: 1.0417%;
+    top: 0.686%;
+    width: 54.1%;
+    margin: 0;
+    font-size: 12cqw;
+    font-weight: 700;
+    line-height: 0.82;
+    letter-spacing: -0.04em;
+    z-index: 2;
+}
+
+.hero-title::first-line {
+    line-height: 0.82;
+}
+
+.hero-description {
+    left: 1.0417%;
+    top: 6.25%;
+    width: 44.41%;
+    margin: 0;
+    font-size: 2.65cqw;
+    line-height: 1.05;
+    z-index: 2;
+}
+
+.order-button {
+    left: 2.43%;
+    top: 13.18%;
+    width: 27.71%;
+    z-index: 4;
+}
+
+.order-button img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.main-vegetable {
+    right: 0;
+    top: 0;
+    width: 48%;
+    height: auto;
+    z-index: 2;
+}
+
+.mask-1 {
+    left: 43.8%;
+    top: 5.94%;
+    width: 30.41%;
+    height: auto;
+    z-index: 3;
+}
+
+.mask-2 {
+    left: 61.77%;
+    top: 6.21%;
+    width: 43.31%;
+    height: auto;
+    z-index: 2;
+}
+
+.mask-3 {
+    left: 30.49%;
+    top: 12.08%;
+    width: 35.71%;
+    height: auto;
+    z-index: 3;
+}
+
+.star {
+    z-index: 4;
+}
+
+.s4 {
+    left: 2.43%;
+    top: 8.19%;
+    width: 5.1%;
+}
+
+.s6 {
+    left: 47.05%;
+    top: 3.92%;
+    width: 5.1%;
+}
+
+.s7 {
+    left: 52.4%;
+    top: 0.65%;
+    width: 1.55%;
+}
+
+.s8 {
+    left: 26.42%;
+    top: 9.87%;
+    width: 2.05%;
+}
+
+.s9 {
+    left: 2.81%;
+    top: 9.87%;
+    width: 3.3%;
+}
+
+.s10 {
+    left: 32.95%;
+    top: 14.65%;
+    width: 0.91%;
+}
+
+.s11 {
+    left: 9.65%;
+    top: 15.28%;
+    width: 3.72%;
+}
+
+.s12 {
+    left: 34.04%;
+    top: 7.5%;
+    width: 1.5%;
+}
+
+.s13 {
+    left: 68.4%;
+    top: 16.09%;
+    width: 0.91%;
+}
+
+.s14 {
+    left: 65.17%;
+    top: 12.65%;
+    width: 0.91%;
+}
+
+.s2 {
+    left: 92.92%;
+    top: 1.15%;
+    width: 3.02%;
+}
+
+.s3 {
+    left: 70.1%;
+    top: 9.58%;
+    width: 3.75%;
+}
+
+.s5 {
+    left: 9.06%;
+    top: 9.87%;
+    width: 3.3%;
+}
+
+.site-star {
+    position: absolute;
+    display: block;
+    height: auto;
+    max-width: none;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.site-star--1 {
+    left: 69.7917%;
+    top: 20.0481%;
+    width: 3%;
+}
+
+.site-star--15 {
+    left: 91.8056%;
+    top: 23.5491%;
+    width: 2.8%;
+}
+
+.site-star--16 {
+    left: 8.3681%;
+    top: 19.5135%;
+    width: 2.1%;
+}
+
+.site-star--18 {
+    left: 12.2569%;
+    top: 26.7085%;
+    width: 2.0486%;
+}
+
+.site-star--19 {
+    left: 61.6319%;
+    top: 25.3943%;
+    width: 5.1042%;
+}
+
+.site-star--20 {
+    left: 87.8819%;
+    top: 27.2565%;
+    width: 3.2292%;
+}
+
+.site-star--21 {
+    left: 67.5347%;
+    top: 25.2785%;
+    width: 2.0486%;
+}
+
+.site-star--22 {
+    left: 83.5764%;
+    top: 29.9572%;
+    width: 5.1042%;
+}
+
+.site-star--23 {
+    left: 45.625%;
+    top: 31.2751%;
+    width: 2.0486%;
+}
+
+.about {
+    position: static;
+}
+
+.about__title {
+    position: absolute;
+    left: 1.04%;
+    top: 23.9%;
+    width: 60%;
+    margin: 0;
+
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 8.5cqw;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+
+.about__description {
+    position: absolute;
+    left: 1.04%;
+    top: 28.1%;
+    width: 82%;
+    margin: 0;
+
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 2.5cqw;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0;
+}
+
+.about-decoration {
+    left: 0%;
+    top: 17.1%;
+    width: 100%;
+    z-index: 0;
+}
+
+.about-wave-top {
+    left: -1.35%;
+    top: 32.89%;
+    width: 104.6%;
+    z-index: 0;
+}
+
+.about-wave-centre {
+    left: 0%;
+    top: 34.6%;
+    width: 104.6%;
+    z-index: 0;
+}
+
+.about-wave-bottom {
+    left: -3.1%;
+    top: 41.72%;
+    width: 110%;
+    z-index: 0;
+}
+
+.about-sun {
+    position: absolute;
+    left: 74.51%;
+    top: 37.23%;
+    width: 15.03%;
+    height: auto;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.wave-caption {
+    position: absolute;
+    left: 12.2569%;
+    top: 35.5584%;
+    width: 52.9861%;
+    margin: 0;
+
+    color: #F0F2EF;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 1.75cqw;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 115%;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.wave-platforms {
+    position: absolute;
+    left: 35.4167%;
+    top: 36.5533%;
+    width: 35.625%;
+    margin: 0;
+
+    color: #F0F2EF;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 1.75cqw;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 115%;
+    text-align: center;
+    z-index: 2;
+}
+
+.vitamins {
+    position: absolute;
+    left: 4.5139%;
+    top: 38.4585%;
+    width: 42.1528%;
+    margin: 0;
+
+    color: #F0F2EF;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 1.75cqw;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 115%;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+/* и теплотой / солнца */
+.warmth {
+    position: absolute;
+    left: 20.3125%;
+    top: 40.7907%;
+    width: 37.2222%;
+    margin: 0;
+
+    color: #F0F2EF;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 1.75cqw;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 115%;
+    text-align: center;
+    z-index: 2;
+}
+
+.products-title {
+    left: 1.04%;
+    top: 46.42%;
+    width: 55%;
+    margin: 0;
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 8.5cqw;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+
+.products-description {
+    left: 1.04%;
+    top: 49.98%;
+    width: 97%;
+    margin: 0;
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 2.5cqw;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0;
+}
+
+.product.tomato {
+    left: 5.2019%;
+    top: 53.415%;
+    width: 27.0055%;
+    height: auto;
+    z-index: 2;
+}
+
+.product.artichoke {
+    left: 38.1797%;
+    top: 53.1299%;
+    width: 24.2965%;
+    height: auto;
+    z-index: 2;
+}
+
+.product.cabbage {
+    left: 64.5595%;
+    top: 53.4863%;
+    width: 31.653%;
+    height: auto;
+    z-index: 2;
+}
+
+.product-name {
+    position: absolute;
+    top: 61.55%;
+    margin: 0;
+
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 2.1cqw;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.tomato-name {
+    left: 4.8611%;
+    width: 27.6389%;
+}
+
+.artichoke-name {
+    left: 38.8889%;
+    width: 23.6458%;
+}
+
+.cabbage-name {
+    left: 68.5069%;
+    width: 23.7153%;
+}
+
+.site-star--27 {
+    left: 2.8819%;
+    top: 45.6712%;
+    width: 3%;
+}
+
+.site-star--24 {
+    left: 45.8681%;
+    top: 45.0949%;
+    width: 4%;
+}
+
+.site-star--25 {
+    left: 64.2014%;
+    top: 48.1244%;
+    width: 3.7%;
+}
+
+.site-star--26 {
+    left: 75.3125%;
+    top: 45.7632%;
+    width: 2.7%;
+}
+
+.site-star--28 {
+    left: 92.7778%;
+    top: 49.0421%;
+    width: 1.7%;
+}
+
+.site-star--29 {
+    left: 28.8542%;
+    top: 79.3084%;
+    width: 4.1042%;
+}
+
+.site-star--30 {
+    left: 60%;
+    top: 78.0077%;
+    width: 4.1042%;
+}
+
+.site-star--31 {
+    left: 89.7222%;
+    top: 66.501%;
+    width: 4.1042%;
+}
+
+.site-star--32 {
+    left: 14.7917%;
+    top: 76.8965%;
+    width: 2.2292%;
+}
+
+.site-star--33 {
+    left: 4.0972%;
+    top: 80.352%;
+    width: 1.0486%;
+}
+
+.delivery-title {
+    left: 1.04%;
+    top: 63.85%;
+    width: 88%;
+    margin: 0;
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 8.5cqw;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+
+.delivery-description {
+    left: 1.04%;
+    top: 69.5%;
+    width: 31%;
+    margin: 0;
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 2.5cqw;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0;
+}
+
+.map {
+    left: 40%;
+    top: 67.2%;
+    width: 60%;
+}
+
+.footer-wave {
+    left: 2.3264%;
+    top: 81.5575%;
+    width: 90.7986%;
+    height: auto;
+    z-index: 0;
+}
+
+.footer-decoration {
+    left: 87.691%;
+    top: 81.29%;
+    width: 7.7617%;
+    height: auto;
+    z-index: 1;
+}
+
+.footer-contact-card {
+    left: 19.6322%;
+    top: 86.559%;
+    width: 54.1785%;
+    height: auto;
+    z-index: 1;
+}
+
+.footer-slogan {
+    left: 16.4236%;
+    top: 83.5057%;
+    width: 65.4861%;
+    margin: 0;
+
+    color: #F0F2EF;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 3.25cqw;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0.13em;
+    text-align: center;
+    z-index: 3;
+}
+
+.footer-contact {
+    left: 24.1667%;
+    top: 87.5369%;
+    width: 45.2778%;
+    margin: 0;
+
+    color: #1D6564;
+    font-family: "PT Root UI", sans-serif;
+    font-size: 2.65cqw;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: center;
+    z-index: 3;
+}
+
+.footer-vegetable {
+    height: auto;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.footer-left {
+    left: -6.7708%;
+    top: 88.8206%;
+    width: 35.1944%;
+}
+
+.footer-right {
+    left: 69.08453%;
+    top: 82.9396%;
+    width: 35.1062%;
+}
+
+.footer-bottom {
+    left: 31.0659%;
+    top: 88.9842%;
+    width: 60.9985%;
+}
+
+.footer-cutout {
+    position: absolute;
+    left: 6.1458%;
+    top: 82.6339%;
+    width: 6.7556%;
+    height: auto;
+    max-width: none;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.footer-dot {
+    position: absolute;
+    left: 10.5556%;
+    top: 84.4516%;
+    width: 1.7708%;
+    aspect-ratio: 51 / 46;
+    border-radius: 50%;
+    background: #F0F2EF;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.site-star--36 {
+    left: 13.0903%;
+    top: 85.8059%;
+    width: 3.3333%;
+}
+
+.site-star--34 {
+    left: 30.625%;
+    top: 91.6065%;
+    width: 2.5694%;
+}
+
+.site-star--38 {
+    left: 37.5347%;
+    top: 93.5401%;
+    width: 2.0139%;
+}
+
+.site-star--39 {
+    left: 78.0208%;
+    top: 86.2069%;
+    width: 2.0139%;
+}
+
+.site-star--37 {
+    left: 84.3403%;
+    top: 93.1391%;
+    width: 3.3333%;
+}
